@@ -1,0 +1,147 @@
+/* css for nav bar */
+nav{
+    margin: top 0; ;
+    display: flex;
+    background-image: -moz-linear-gradient(rgba(41, 41, 135, 0.936),rgba(0, 0, 0, 0));
+}
+.options{
+    width: 100vw;
+    display: flex;
+}
+.logo{
+    height: 150px;
+    border-radius: 50rem;
+    margin-left: 3rem;
+}
+.logotext{
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+.login img{
+    height: 100px;
+    border-radius: 50rem;
+}
+.favourites{
+    padding: 2rem;
+    font-size: 2rem;
+    
+}
+.search{
+    margin-left: 45%;
+    margin-top: 2%;
+     background: url(https://icons8.com/icon/KPmthqkeTgDN/search) no-repeat scroll 7px 7px;
+    padding-left:30px;
+}
+
+.search input{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(6, 6, 6);
+    opacity: 50%;
+    border-radius: 50rem;
+    padding-left: 25px;
+    background: url("search.png") no-repeat left; 
+    background-size: 30px;
+}
+.login{
+    display: flex;
+}
+.login p{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+
+
+/* end of css for nav bar  */
+/* css for home page */
+body{
+    background-color: rgb(117, 117, 177);
+}
+.playlists{
+    display: flex;
+}
+.playlist1{
+    height: 300px;
+    padding: 3rem;
+    transition: transform 200ms ease-in-out;
+
+}
+
+.playlist1:hover{
+    transform: scale(1.5);
+}
+
+
+
+.latestrelease{
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.songs{
+    
+}
+.col1{
+    gap: 10rem;
+    display: flex;
+}
+.col2{
+    gap: 10rem;
+    display: flex;
+}
+.song{
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.362);
+    border-radius: 2rem;
+}
+.song img{
+    height: 100px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.songname{
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.artistname{
+    font-size: 24px;
+    
+}
+.doticon{
+    height: 20px;
+    width: 50px;
+    align-self: flex-end;
+    padding-bottom: 50px;
+}
+.popular
+{
+    display: flex;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+.artist{
+    padding-left:1rem;
+    padding-right: 1rem;
+    height:300px;
+}
+.populartext{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.artist img{
+    margin-top: 0px;
+    height: 300px;
+    border-radius: 300rem;
+}
+.artist p{
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
