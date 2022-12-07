@@ -38,7 +38,7 @@ nav{
 .search{
     /* display: inline-block; */
     float: right;
-    margin-left: 35vw;
+    margin-left: 30vw;
     
      background: url(https://icons8.com/icon/KPmthqkeTgDN/search) no-repeat scroll 7px 7px;
 
@@ -174,8 +174,8 @@ float: right;
 .queuesongs{
     
     display: block;
-
-    
+    overflow: auto;
+    height: 70vh;
 }
 .queuesongs ul:hover {
     background-color: rgb(102, 104, 104);
@@ -272,4 +272,53 @@ float: right;
 .queuesongs ul i{
     margin-left: 15vw;
     margin-top: 2rem;
+}
+
+.stations{
+    display: flex;
+    padding: 1rem;
+}
+
+.stations img{
+    height: 9rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius:20rem ;
+}
+
+/* moods  */
+.moods{
+    display: flex;
+}
+.moods img{
+    height: 12rem;
+    padding: 4rem;
+    transition: transform .1s;
+}
+.moods img:hover {
+    transform: rotate(40deg);
+    
+}
+.moods p{
+    font-size: 2rem;
+    padding: 2rem;
+}
+.stations p{
+    font-size: 2rem;
+    padding: 2rem;
+}
+.playlists2{
+    margin-top: -20px;
+    display: flex;
+
+}
+.playlists2 img{
+    height: 10rem;
+    padding: 2rem;
+
+}
+
+.search i{
+    font-size: 2rem;
+    padding: 1rem;
 }
