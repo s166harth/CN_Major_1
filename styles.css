@@ -225,7 +225,7 @@ float: right;
     display: flex;
     width: 60vw;
     border-radius: 4rem;
-    background-color: rgba(255, 228, 196, 0.342);
+    background-color: rgb(20,27,65);
 }
 .data{
     padding-left: 4rem;
@@ -255,18 +255,30 @@ float: right;
 
 .playall{
     height: 4rem;
-    width: 7rem;
+    width: 12rem;
     font-size: 2rem;
-    background-color: aqua;
+    background-image: linear-gradient(blue,purple);
+    transition: transform .1s;
     border-radius: 3rem;
+
+}
+.playall:hover{
+
+    background-color: rgb(203, 30, 238);
+    transform: scale(1.5);
 
 }
 .follow{
     height: 4rem;
-    width:7rem;
+    width:12rem;
     font-size: 2rem;
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0);
     border-radius: 4rem;
+    transition: transform .1s;
+}
+.follow:hover{
+    background-color: aqua;
+    transform: scale(1.5);
 }
 
 .queuesongs ul i{
@@ -320,5 +332,33 @@ float: right;
 
 .search i{
     font-size: 2rem;
+    padding: 1rem;
+}
+.artistpagesongs{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.artistpagesong{
+    
+    display: flex;
+    background-color: rgb(26,30,51);
+    width: 55vw;
+}
+.artistpagesong img{
+    height: 4rem;
+    
+    padding: 1.5rem;
+}
+.artistpagesong p{
+    font-size: 2rem;
+}
+.songicons{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 25vw;
+    font-size: 2rem;
+}
+.songicons i{
     padding: 1rem;
 }
