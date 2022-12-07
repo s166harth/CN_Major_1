@@ -169,6 +169,10 @@ float: right;
 
     
 }
+.queuesongs ul:hover {
+    background-color: aqua;
+    transition: 2s;
+}
 .queuesongs ul {
     font-size: 2rem;
     width: 60vh;
@@ -192,4 +196,66 @@ float: right;
     border-radius: 100rem;
     height: 5rem;
     padding: 1rem;
+}
+
+
+/* artist info section */
+.homeartist{
+    display: flex;
+    flex-wrap: wrap;
+}
+.notqueue {
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    
+}
+.artistinfo{
+    display: flex;
+    width: 60vw;
+    border-radius: 4rem;
+    background-color: rgba(255, 228, 196, 0.342);
+}
+.data{
+    padding-left: 4rem;
+}
+.artistinfo img{
+    height:30vh;
+    border-radius: 2rem;
+}
+.data div{
+    display:flex;
+}
+.artistname{
+     font-size: 4rem;
+     font-family: 'Times New Roman', Times, serif;
+
+
+}
+.artistinfo2{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.followers{
+    font-size: 2rem;
+    margin-left: 18vw;
+    margin-top: 4rem;
+}
+
+.playall{
+    height: 4rem;
+    width: 7rem;
+    font-size: 2rem;
+    background-color: aqua;
+    border-radius: 3rem;
+
+}
+.follow{
+    height: 4rem;
+    width:7rem;
+    font-size: 2rem;
+    background-color: azure;
+    border-radius: 4rem;
 }
