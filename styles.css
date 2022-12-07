@@ -4,7 +4,8 @@ nav{
     margin: 0 !important;
     display: flex;
     flex-wrap: wrap;
-    background-image: -moz-linear-gradient(rgba(41, 41, 135, 0.936),rgb(117,117,177));
+    color: aliceblue;
+    background-color: rgb(12,16,39);
 }
 .options{
     width: 100vw;
@@ -71,7 +72,8 @@ nav{
 /* end of css for nav bar  */
 /* css for home page */
 body{
-    background-color: rgb(117, 117, 177);
+    background-color: rgb(12,16,39);
+    color: aliceblue;
 }
 .playlists{
     width: 60vw;
@@ -109,18 +111,22 @@ body{
     display: flex;
     margin-top: 20px;
     width: 500px;
-    background-color: rgba(0, 0, 0, 0.362);
+    background-color: rgb(12,16,39);
     border-radius: 2rem;
 }
 .song img{
-    height: 100px;
+    height: 10rem;
     padding-left: 2rem;
     padding-top: 1rem;
 }
+.song i{
+    font-size: 4rem;
+    margin-top: 1rem;
+}
 .songname{
-    padding: 20px;
-    margin-top: 10px;
-    font-size: 20px;
+    padding: 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
     
 }
 .artistname{
@@ -131,9 +137,11 @@ body{
 .popular
 {
     display: flex;
+    height: 25rem;
     padding-left:1rem;
     padding-right: 1rem;
     overflow-x: auto;
+    overflow-y: hidden;
 }
 .artist{
     padding-left:1rem;
@@ -170,8 +178,8 @@ float: right;
     
 }
 .queuesongs ul:hover {
-    background-color: aqua;
-    transition: 2s;
+    background-color: rgb(102, 104, 104);
+    transition: 1s;
 }
 .queuesongs ul {
     font-size: 2rem;
@@ -179,17 +187,18 @@ float: right;
     display: flex;
     border-radius: 4rem;
     
-    background-color: rgb(113, 118, 116);
+    background-color: rgb(12,16,39);
 }
 .home{
     display: flex;
 }
 .queueheading{
 
-    background-color: rgba(92, 92, 159, 0.407);
+    background-color: rgb(12,16,39);
     border-radius: 2rem;
-    font-size: 5rem;
-    margin-left: 30rem;
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-right: 30rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .queuesongs ul img{
@@ -258,4 +267,9 @@ float: right;
     font-size: 2rem;
     background-color: azure;
     border-radius: 4rem;
+}
+
+.queuesongs ul i{
+    margin-left: 15vw;
+    margin-top: 2rem;
 }
