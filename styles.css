@@ -408,3 +408,18 @@ footer img{
     display: flex;
     flex-direction: column;
 }
+.moods span{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.playlist2 p{
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: -2rem;
+
+}
+
+.playlist2 img:hover{
+    height: 4rem;
+    width: 4rem;
+}
