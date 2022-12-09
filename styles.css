@@ -363,7 +363,7 @@ float: right;
     padding: 1rem;
 }
 footer{
-    position: sticky;
+    position: fixed;
     display: flex;
 left: 0;
 text-align: center;
@@ -376,19 +376,35 @@ font-size:1.5em;
 line-height:100px;
 }
 footer img{
+    margin-top: 1rem;
     height: 5rem;
     padding: 1rem;
 
 }
-footer i{
-    font-size: 2rem;
-    padding: 1rem;
-}
-footer input{
-    width: 80vw;
+
+.player audio{
+    width: 50vw;
+    margin-left: 10rem;
+    height: 3rem;
     margin-top: 2rem;
 }
-.seekandcontrols{
-        display: flex;
+.activesong{
+    display: flex;
+}
+#rm{
+    margin-top: -4rem;;
+}
+.ext{
+    display: flex;
+}
+.ext i{
+    padding-left: 2rem;
+}
+.fticon i{
+    padding-left: 2rem;
+}
+
+.saq{
+    display: flex;
     flex-direction: column;
 }
